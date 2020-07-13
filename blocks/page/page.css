@@ -13,6 +13,7 @@
 .page {
     background-color: #2A2C2F;
     font-family: Inter, Helvetica, sans-serif;
-    min-width: 400px;
+    min-width: 320px;
+    color: #fff;
     padding-top: 28px;
 }
