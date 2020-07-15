@@ -1,3 +1,4 @@
 .header__lang-link_active {
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    border-bottom: 1px solid #fff;
 }

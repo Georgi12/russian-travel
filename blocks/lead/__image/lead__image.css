@@ -3,7 +3,7 @@
     background-position: center;
     padding-bottom: 62.5%;
     background-size: cover;
-    background-image: url(../../../images/kalegin-michail-179870-unsplash.jpg);
+    background-image: url(../../../images/lead-polka.jpg);
     margin-top: 56px;
 }
 
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width:  425px) {
     .lead__image  {
         margin-top: 40px;
     }
