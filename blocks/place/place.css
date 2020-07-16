@@ -7,6 +7,10 @@
 }
 
 
+.place:last-of-type {
+    margin: 0 auto 0;
+}
+
 @media screen and (min-width: 0) {
     .place  {
         grid-template-columns: 1fr;

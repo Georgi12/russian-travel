@@ -4,4 +4,11 @@
     text-decoration-line: none;
     border-bottom: 1px solid #fff;
     color: #fff;
+    transition:  opacity 0.3s ease, color 0.2s;
+    -webkit-transition: opacity 0.3s ease, color 0.2s;
+}
+
+
+.place__link:hover {
+    opacity: .8;
 }
