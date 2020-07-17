@@ -3,17 +3,9 @@
     padding-bottom: 62.5%;
     background-image: url(../../../images/cover-trains.jpg);
     background-position: center;
-    opacity: 0.3;
     background-size: cover;
+    box-sizing: border-box;
     position: relative;
-    background-color: #000;
-    transition:  opacity 0.3s ease, color 0.2s;
-    -webkit-transition: opacity 0.3s ease, color 0.2s;
-}
-
-
-.cover__background:hover {
-    opacity: 0.2;
 }
 
 

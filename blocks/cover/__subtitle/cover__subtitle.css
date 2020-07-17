@@ -2,18 +2,19 @@
     font-size: 18px;
     width: 360px;
     margin: 0 auto 0;
-    position: relative;
     line-height: 22px;
-    transform: translateY(500%);
     padding: 0 0;
+    z-index: 10;
+    color: #fff;
+    margin-top: 32px;
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
         width: 288px;
-        transform: translateY(300%);
+        margin-top: 16px;
     }
 }
