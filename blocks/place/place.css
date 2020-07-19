@@ -26,9 +26,17 @@
         column-gap: 28px;
         width: calc(100% - 24px*2);
         margin-bottom: 72px;
+        row-gap: 48px;
     }
 }
 
+
+
+@media screen and (max-width: 425px) {
+    .place  {
+        row-gap: 32px;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .place  {
@@ -43,8 +51,11 @@
 
 @media screen and (min-width: 1280px) {
     .place  {
-        column-gap: 40px;
+        grid-column-gap: 40px;
         grid-template-columns: calc(50% - 32px) 1fr;
-        
+
     }
 }
+
+
+

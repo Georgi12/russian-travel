@@ -6,29 +6,23 @@
         <link rel="stylesheet" href="./pages/index.css">
         <title>Путешествия по России</title>
     </head>
-    <body>
-        <main class="page">
-            <header class="header">
-                <img class="logo" src="./images/header-logo.svg" alt="логотип">
-                <nav class="header__lang-links">
-                  <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-                  <a href="#" class="header__lang-link">En</a>
-                </nav>
-            </header>
+    <body class="page">
+        <header class="header">
+            <img class="logo" src="./images/header-logo.svg" alt="логотип">
+            <ul class="header__lang-links">
+                <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+                <li><a href="#" class="header__lang-link">En</a></li>
+            </ul>
+        </header>
+        <main>
 
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__image"></div>
-                
-                <!--
-                    Вообще это боковая полка, а если еще и верхняя - то эта фраза звучит как, если выражаться 
-                    словами из к/ф "Джентельмены удачи": "Ваше место возле параши!"
-                    
-                    P.S Хотел чутка скрасить твой досуг, ведь читать чужой код - то еще заниетие. Но
-                    если шутка не удалась, то извиняйте =)
-                -->
-                <p class="lead__caption">ваша полка — верхняя</p>
+                <figure class="lead__figure">
+                    <img class="lead__image" src="./images/lead-polka.jpg" alt="Траэктрория в пути от Пскова до Улан-Уде, на фоня спящей дешувки в поезде">
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>
 
             </section>
             <section class="intro">
@@ -80,12 +74,12 @@
                     <img src="./images/place-kosa.jpg" class="place__image" alt="Куршская коса">
                     
                     <div class="place__text">
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного
                             Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. 
                             Уникальная природная зона на краю российского анклава.
                         </p>
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             На этом Калининградская область не заканчивается. Для путешественника 
                             и исследователя там же по соседству — самая западная точка России, Балтийская коса, — 
                             и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает
@@ -105,11 +99,11 @@
                     <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский">
                     
                     <div class="place__text">
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
                             тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
                         </p>
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля 
                             в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний 
                             об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой 
@@ -130,12 +124,12 @@
                     <img src="./images/place-altai.jpg" class="place__image" alt="Алтай">
                     
                     <div class="place__text">
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, 
                             вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, 
                             сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
                         </p>
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие 
                             местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся 
                             косули. И знаменитые манулы — тоже обитатели Алтайского края.
@@ -154,11 +148,11 @@
                     <img src="images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал">
                     
                     <div class="place__text">
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды
                             и одно из красивейших мест в России.
                         </p>
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, 
                             когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
                             В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
@@ -177,7 +171,7 @@
                     <img src="./images/place-karelia.jpg" class="place__image" alt="Карелия">
                     
                     <div class="place__text">
-                        <p class="place__paragraf">
+                        <p class="place__paragraph">
                             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера.
                             Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не 
                             знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше,
@@ -192,18 +186,12 @@
             <section class="cover">
                 
                 <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-                <div class="cover__background">
-                    <div class=cover__text-wraper>
-                        <h2 class="cover__title">До Байкала «на собаках»</h2>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-                    </div>
-                    <div class="cover__overlay"></div>
-                    
-                </div>
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
                 </a>
                 
             </section>            
-
+        </main>
             <footer class="footer">
                 <nav class="footer__links">
                     <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
@@ -214,6 +202,5 @@
                 </nav>
                 <p class="footer__copyright">&copy;2020. Кувыкин Георгий</p>
             </footer>
-        </main>
     </body>
 </html>

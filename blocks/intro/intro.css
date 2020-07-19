@@ -1,9 +1,9 @@
 .intro {
     width: calc(100% - 48px*2);
     text-align: start;
-    max-width: 720px;
+    max-width: 984px;
     padding-top: 92px;
-    margin-left: calc((100% - 720px)/2 - (984px - 720px)/2);
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1080px) {
